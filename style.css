@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3efe6;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.profile {
+    background: #ffffff;
+    padding: 50px 40px;
+    border: 2px solid #222;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.school {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.section {
+    background: #ffffff;
+    padding: 30px;
+    border: 2px solid #222;
+    border-radius: 18px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #222;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: #f3efe6;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.label {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.hobbies {
+    display: flex;
+    gap: 20px;
+}
+
+.hobby {
+    flex: 1;
+    background: #e4efd5;
+    border: 1px solid #222;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hobby span {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.hobby p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    .profile {
+        padding: 35px 20px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .school {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 22px;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .hobbies {
+        flex-direction: column;
+    }
+
+}
